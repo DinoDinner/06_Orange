@@ -1,0 +1,12 @@
+----------------------------------------------------------------------------------
+
+[ 07_ImageAnalytics.ows 참고 ]
+
+image analytics
+
+이미지를 소스를 모으고 import images에서 이미지 인식
+
+image embedding에서 image 분석하기
+-> ImageNet에서 이미지 분석 소스를 이용함.
+
+폴더 이름에 따라 img에 labeling이 되어있다.

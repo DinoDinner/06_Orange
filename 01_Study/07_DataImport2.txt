@@ -1,0 +1,12 @@
+
+[ 03_DataImport2.ows 참고 ]
+
+1. DataSet과 Model들을 따로 Test and Score에 연결한다. 
+-> OverFitting Data가 되는 걸 방지.
+
+2. Test and Score에 보면 R2값이 모두 낮은걸 확인 할 수 있다.
+
+Random Sampling : 전체 DataSet에서 일정 비율을 Train과 Test로 나눔
+Cross validation : Data의 갯수가 작을 때, 칸 하나를 Train / 나머지 칸을 Test로 설정하고 이를 마지막 블럭까지 다 돌림 - 알차게 돌리기! k-fold Cross Validation(교차검증)
+Leave one out : 연결된 Model의 Test를 다 돌리고 비교. -> 매우 시간이 오래 걸림.
+

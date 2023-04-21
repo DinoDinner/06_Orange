@@ -1,0 +1,28 @@
+
+----------------------------------------------------------------------------------
+
+[ 05_DataSampling.ows 참고 ]
+
+Data Sampling(iris data,)
+
+Data sampler 활용
+-> 필요한 범위 만큼 쪼개서 사용할 수 있다.
+
+proportion of data : %로 data의 sample률 정할 수 있음
+sample size : sample의 건수를 정할 수 있음
+
+sample data의 변경 할 경우 sample data를 눌러서 적용해야함.
+
+Tree Algorithm을 연결해보면 지정한 sample의 개수만큼 들어오는 걸 확인 할 수 있다.
+하지만, model은 test and score로 넘어갈 수 없다.
+
+
+data sampler에서 나오는 첫 번째 선은 sample의 개수 -> data로 설정
+다른 선은 나머지 sample을 이동시킴 (선 설정에서 remaing data -> test data로 설정)
+
+그리고 Prediction 하려면
+
+ Tree model의 Data와 Data Sampler의 remaing data를 predictiond에 연결해야함.
+ -> 어떤식으로 비교를 해서 예측한 것인지 알려줌. / error가 0.5 이상이면 error를 표시해줌.
+
+----------------------------------------------------------------------------------
