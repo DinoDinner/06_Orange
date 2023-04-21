@@ -1,0 +1,140 @@
+[ Tree Algorithm ]
+
+2진 분류 -> 갈라지면서 나무처럼 보임
+복잡한 문제들은 Tree를 여러개를 쓰는 경우도 있음
+Tree가 여러개 모이면 forest 모델,
+forest가 여러개 모이면 jungle 모델
+
+[ kNN Algorithm ]
+
+데이터가 Regression line에서 양쪽으로 확실하게 분류가 안될 때
+대부분의 k값을 홀수로 정함
+k의 숫자에 따라서 데이터와 인접한 이웃데이터의 특성을 함께 데이터화함
+실험을 통해서 가장 적당한 k의 값을 찾아서 속성조정을 함
+
+metric에 따라서 달라지기도 함05
+Eculidean : 직선 거리로 계산
+Menhatan : 거리를 수직 수평을 가지고 계산
+
+----------------------------------------------------------------------------------
+
+각종  평가 지표
+
+[|Precision : 정밀도 ]
+True 중 진짜 True의 비율 -> 얼마나 정밀한가?
+
+[ Recall : 재현율 ]
+실제 True 중 모델이 True라고 예측한 것의 비율 -> 얼마나 True인가?
+
+[ Accurancy (CA) : 정확도 ]
+Confusion Metrix(실제vs예측 테이블)를 이용하여
+True -> True / False -> False로 맞춘 비율
+가장 먼저 봐야함..! / Accurancy가 높으면 높을 수록 좋다.
+
+하지만, 가장 중요한 것은 Recall 과 AUC다
+
+AUC는 ROC curve의 값을 가지고 면적을 확인하여 시각화한 값이다.
+
+----------------------------------------------------------------------------------
+
+Tree Algorithm의 구조 알기 by Tree Viewer (iris data)
+
+petal length 길이가 1.9 보다 작으면 iris-setosa
+petal width 길이가 1.7보다 크면 iris-virginica
+petal leght 길이가 4.9보다 작으면 iris-vesicolor
+petal width 길이가 1.5보다 작으면 iris-virginica 크면 iris-vesicolor
+-> 이런 식으로 Tree가 구성이 됨
+
+Tree Algorithm의 설정
+
+depth : True의 깊이의 설정
+
+----------------------------------------------------------------------------------
+
+Box Plot
+
+박스의 영역이 겹쳐있으면 분류하기가 어렵다는 뜻
+박스의 왼쪽 최소, 오른쪽 최대, 중간은 평균값 (정중앙은 아님)
+각 박스의 center position이 가까우면 변별력이 없다는 뜻 -> sepal width가 가장 분별력이 없음
+
+data의 성질을 먼저 연구하는 작업이 필요함.
+
+----------------------------------------------------------------------------------
+
+항상 정확도가 높은 모델이 best인가?
+
+답은 no.
+
+어느정도 정확도도 높고 부하가 적은 모델을 사용하는 게 좋음 -> 돌려봐야함.
+
+특징을 따라간다는 건 학습 data의 특성을 따라가야함
+원본 data의 특성을 따라가면 overfitting이 됨
+
+경우의 수가 생각보다 많아서, 모델에 대한 예상을 확정 지을 수 없다..
+
+----------------------------------------------------------------------------------
+
+Distribution widget
+
+전체적인 Data의 분포를 확인 할 수 있음.
+각각에 case의 맞게끔 시각화 data를 활요하는 것이 좋음
+
+----------------------------------------------------------------------------------
+
+Data Sampling(iris data,)
+
+Data sampler 활용
+-> 필요한 범위 만큼 쪼개서 사용할 수 있다.
+
+proportion of data : %로 data의 sample률 정할 수 있음
+sample size : sample의 건수를 정할 수 있음
+
+sample data의 변경 할 경우 sample data를 눌러서 적용해야함.
+
+Tree Algorithm을 연결해보면 지정한 sample의 개수만큼 들어오는 걸 확인 할 수 있다.
+하지만, model은 test and score로 넘어갈 수 없다.
+
+
+data sampler에서 나오는 첫 번째 선은 sample의 개수 -> data로 설정
+다른 선은 나머지 sample을 이동시킴 (선 설정에서 remaing data -> test data로 설정)
+
+그리고 Prediction 하려면
+
+ Tree model의 Data와 Data Sampler의 remaing data를 predictiond에 연결해야함.
+ -> 어떤식으로 비교를 해서 예측한 것인지 알려줌. / error가 0.5 이상이면 error를 표시해줌.
+
+----------------------------------------------------------------------------------
+
+비 지도학습 -> 군집비교
+
+scatter plot : 각각의 군집을 비교할 수 있는 도구
+
+single linkage : 가장 가까운 좌표끼리 분석
+complete linkage : 가장 먼 좌표끼리 분석 -> 변별력이 그나마 괜찮긴 함.
+average linkage : 
+
+1. 먼저 좌표들의 거리를 재야한다. -> unsupervised - distance
+data -> distance : 좌표들의 거리를 측정함 - Row단위로 측정해야함.
+
+계층적으로 군집을 분류하는 것 : heiarchocal clustering
+-> linkage를 변경해가면서 분석 해보기
+
+----------------------------------------------------------------------------------
+
+k-means 사용하기
+(k는 숫자를 의미함)
+
+shilhoutte Plot -> k-means를 보여주는 지표
+
+k-means은 labeling이 안되어 있는 데이터를 가지고도 작업이 어느정도 잘 나온다.
+
+----------------------------------------------------------------------------------
+
+image analytocs
+
+이미지를 소스를 모으고 import images에서 이미지 인식
+
+image embedding에서 image 분석하기
+-> ImageNet에서 이미지 분석 소스를 이용함.
+
+폴더 이름에 따라 img에 labeling이 되어있다.
