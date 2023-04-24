@@ -1,0 +1,74 @@
+option add-on에서 text 설치
+
+text mining의 이용
+
+글 안에서 감저을 분석 할 수 있음
+글을 분석해서 positive/negetive를 분석할 수 있음
+글의 hash-tag를 붙여서 간결하게 정리할 수 있음
+
+
+corpus를 호출
+corpusfile tab은 동화책이나 소설의 텍스트를 불러올 수 있음
+-> 호출한 data를 볼 수 있는 기능 : corpus viewer
+
+corpus viwer를 이용하면 글의 내용을 볼 수 있다.
+글의 topic과 title, abstract까지 정리되어있음!
+
+word cloud를 이용해서 빈도가 높은 단어를 볼 수 있음,
+하지만,유용성이 있는 data로 나오진 않음.
+-> 전처리를 먼저 해야함-preprogress text
+
+text transformation을 통해서 규칙을 정할 수 있음
+lowercase : 대문자를 모두 소문자로 고정
+accent : 기호 제거
+parse html : html tag 제거 (parsing = 인식해온다./해당되는 파일을 parse할 수 있는 기능 = parser)
+
+tokenization : 어떤 인증을 표기하는 것 = 토큰
+-> 어떤 문장을 단위로 쪼개주는 것
+regexp : 정규식 -> 토큰을 하기 위한 패턴을 지정할 수 있음
+
+다시 wordcloud를 연결해보면 정제된 것을 확인할 수 있음.
+
+불필요한 단어들을 제거하고 싶을 때 : stopwords
+-> 메모장에서 미리 작성하고 불러오기를 통해서 지정가능!
+
+data table과 statisctics를 호출해서 corpus에 연결!
+-> 단어의 빈도를 table로 확인 가능하다!
+
+wikipedia - supervised learning
+-> wikipedia와의 연결점을 만들어주는 역할
+-> search를 눌러서 10개까지(articles per query) article를 불러오게됨
+-> wikipedia 안의 supervised learning에 대한 articles를 10개를 가지고 온 widget이 됨!
+
+전처리를 하고 word cloud text를 연결해보면 wikipedia의 단어를 편하게 시각적으로 볼 수 있다.
+
+bag of words
+https://www.google.com/search?q=python+bag+of+words&source=hp&ei=TNZFZJ0us7Haug-56LfABA&iflsig=AOEireoAAAAAZEXkXBIPPxEfDTvv79dZBagBR_KQF2am&oq=python+bag+of+&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQgAQyBQgAEIAEMgUIABCABDIECAAQHjIECAAQHjIECAAQHjIHCAAQHhCLAzIHCAAQHhCLAzIHCAAQHhCLAzIHCAAQHhCLAzoICAAQgAQQsQM6EQguEIAEELEDEIMBEMcBENEDOgQILhADOgsIABCABBCxAxCDAToOCC4QgAQQsQMQgwEQ1AI6CgguEMcBENEDEAM6DgguEIAEELEDEMcBENEDOgQIABADOgsILhCABBCxAxCDAToKCAAQgAQQsQMQClDfA1joKmCAMGgFcAB4AIABhQGIAa0RkgEEMC4xOZgBAKABAbABALgBAw&sclient=gws-wiz
+-> 단어들마다 고유 번호를 부여해서 문장의 단어출현 횟수를 정리할 수 있음.
+-> 전처리를 위해 preprogress를 연결하고 bag of words를 연결
+-> data table을 연결해서 확인해보면, 단어마다 등장 횟수를 확인할 수 있다.
+-> 한글은 너무 어려워서
+
+단어의 빈도 data 사이의 거리를 확인 hierarchicla
+tokenization을 가장 간단하게 bow로 확인 할 수 있다.
+
+지도학습으로 학습된 내용으로 다시 분류!
+-> logistic regression
+학습된 언어들에 대한 가중치를 보는 작업->nomogram
+bow에서 나온 단어들이 
+
+topic을 분류하는 문제 : table data상 atu topic은 label data임, 그 feature는 나오는 단어들의 빈도
+
+------------------
+
+그림형제 동화를 분석 -> 안데르센 동화 평가하기
+
+수치화된 data를 가지고 예측하기 by bow
+
+logistic regression을 거치면서  모델이 나옴 -> 예측을 할 수 있다.
+안데르센의 bow를 prediction에 동시에 연결
+
+안데르센 동화의 내용이 모두 tales of magic로 분류됨.
+결과가 마음에 안들면 모델을 바꿔보면 됨! -> 분류가 되는 알고리즘 사용하기 kNN
+
+-> 1세대 자연어 처리
