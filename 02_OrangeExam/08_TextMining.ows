@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme version="2.0" title="" description="">
 	<nodes>
-		<node id="0" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus" position="(138.0, 188.0)" />
+		<node id="0" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus" position="(77.0, 193.0)" />
 		<node id="1" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer" position="(236.0, 124.0)" />
 		<node id="2" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(234.0, 201.0)" />
 		<node id="3" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text" position="(232.0, 294.0)" />
@@ -933,12 +933,15 @@ lEsBdXViYXUu
 </properties>
 		<properties node_id="15" format="literal">{'autocommit': True, 'axis': 0, 'controlAreaVisible': True, 'metric_idx': 0, 'normalized_dist': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x028\x00\x00\x01G\x00\x00\x02\xf4\x00\x00\x02-\x00\x00\x029\x00\x00\x01f\x00\x00\x02\xf3\x00\x00\x02,\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x029\x00\x00\x01f\x00\x00\x02\xf3\x00\x00\x02,', '__version__': 3}</properties>
 		<properties node_id="16" format="literal">{'C_index': 61, 'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'learner_name': '', 'penalty_type': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03K\x00\x00\x01l\x00\x00\x044\x00\x00\x02~\x00\x00\x03L\x00\x00\x01\x8b\x00\x00\x043\x00\x00\x02}\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03L\x00\x00\x01\x8b\x00\x00\x043\x00\x00\x02}', '__version__': 2}</properties>
-		<properties node_id="17" format="pickle">gASVQgEAAAAAAAB9lCiMFmNvbnRfZmVhdHVyZV9kaW1faW5kZXiUSwCMEmNvbnRyb2xBcmVhVmlz
+		<properties node_id="17" format="pickle">gASVvgEAAAAAAAB9lCiMFmNvbnRfZmVhdHVyZV9kaW1faW5kZXiUSwCMEmNvbnRyb2xBcmVhVmlz
 aWJsZZSIjA1kaXNwbGF5X2luZGV4lEsBjAxuX2F0dHJpYnV0ZXOUSwqMF25vcm1hbGl6ZV9wcm9i
 YWJpbGl0aWVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAjEAAADrAAAFTgAA
 Av4AAAIyAAABCgAABU0AAAL9AAAAAAAAAAAHgAAAAjIAAAEKAAAFTQAAAv2UjAVzY2FsZZRLAIwK
 c29ydF9pbmRleJSMI09yYW5nZS53aWRnZXRzLnZpc3VhbGl6ZS5vd25vbW9ncmFtlIwGU29ydEJ5
-lJOUSwKFlFKUjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlHUu
+lJOUSwKFlFKUjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdp
+ZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEnRhcmdldF9jbGFz
+c19pbmRleJRLAGgPSwF1jAdjbGFzc2VzlE51YmgUKYGUfZQoaBd9lChoGUsAaA9LAXVoGk51YmV1
+Lg==
 </properties>
 		<properties node_id="18" format="pickle">gASVUAIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfZmlsZXOUXZQojBhn
 cmltbS10YWxlcy1zZWxlY3RlZC50YWKUjBFib29rLWV4Y2VycHRzLnRhYpSMGGVsZWN0aW9uLXR3
@@ -1049,8 +1052,8 @@ aEMpdWJldS4=
 		<properties node_id="27" format="pickle">gASV2gEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
 lENCAdnQywADAAAAAAJuAAAAnwAABmkAAAI8AAACbwAAAL4AAAZoAAACOwAAAAAAAAAAB4AAAAJv
 AAAAvgAABmgAAAI7lIwJc2VsZWN0aW9ulF2USwJhjAtzaG93X3Njb3Jlc5SIjAtzY29yZV90YWJs
-ZZR9lIwMc2hvd25fc2NvcmVzlI+UKIwCUjKUjANNQUWUjARSTVNFlIwCRjGUjAZSZWNhbGyUjAJD
-QZSMB0MtSW5kZXiUjAlQcmVjaXNpb26UjANBVUOUjANNU0WUkHOMC19fdmVyc2lvbl9flEsBjBBj
+ZZR9lIwMc2hvd25fc2NvcmVzlI+UKIwEUk1TRZSMA01BRZSMAkYxlIwCUjKUjAlQcmVjaXNpb26U
+jAdDLUluZGV4lIwDTVNFlIwCQ0GUjANBVUOUjAZSZWNhbGyUkHOMC19fdmVyc2lvbl9flEsBjBBj
 b250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGU
 fZQojAZ2YWx1ZXOUfZQojBdzaG93X3Byb2JhYmlsaXR5X2Vycm9yc5SIjA9zaG93X3JlZ19lcnJv
 cnOUSwGMC3Nob3duX3Byb2JzlEsAjAx0YXJnZXRfY2xhc3OUjBYoQXZlcmFnZSBvdmVyIGNsYXNz

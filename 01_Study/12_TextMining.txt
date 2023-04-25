@@ -1,33 +1,44 @@
+--------------------------------------------------------------------------------------------------
+
+[ 08_TextMining.ows 참고]
+
 option add-on에서 text 설치
 
-text mining의 이용
+[ Text Mining의 활용도 ]
 
-글 안에서 감저을 분석 할 수 있음
-글을 분석해서 positive/negetive를 분석할 수 있음
-글의 hash-tag를 붙여서 간결하게 정리할 수 있음
+-> 글 안에서 감정을 분석 할 수 있음
+-> 글을 분석해서 positive/negetive를 분석할 수 있음
+-> 글의 hash-tag를 붙여서 간결하게 정리할 수 있음
 
 
-corpus를 호출
-corpusfile tab은 동화책이나 소설의 텍스트를 불러올 수 있음
--> 호출한 data를 볼 수 있는 기능 : corpus viewer
+[ Text Mining의 기초]
 
-corpus viwer를 이용하면 글의 내용을 볼 수 있다.
-글의 topic과 title, abstract까지 정리되어있음!
+1.  Corpus
+    corpusfile tab은 동화책이나 소설의 텍스트를 불러올 수 있음
 
-word cloud를 이용해서 빈도가 높은 단어를 볼 수 있음,
-하지만,유용성이 있는 data로 나오진 않음.
--> 전처리를 먼저 해야함-preprogress text
+2.  Corpus Viwer
+    글의 내용을 확인 할 수 있다.
+    글의 topic과 title, abstract까지 정리되어있음!
 
-text transformation을 통해서 규칙을 정할 수 있음
-lowercase : 대문자를 모두 소문자로 고정
-accent : 기호 제거
-parse html : html tag 제거 (parsing = 인식해온다./해당되는 파일을 parse할 수 있는 기능 = parser)
+3.  word cloud
+    빈도가 높은 단어를 시각적으로 볼 수 있어서 유용하게 사용된다.
+    하지만,Raw데이터로는 유용성이 있는 data로 나오진 않음.
+    -> 전처리(Preprocessing) 과정을 먼저 해야한다.
 
-tokenization : 어떤 인증을 표기하는 것 = 토큰
--> 어떤 문장을 단위로 쪼개주는 것
-regexp : 정규식 -> 토큰을 하기 위한 패턴을 지정할 수 있음
+4.  Preprocess Text
+    -  Transformation : Data화 한 글에 대한 규칙을 정할 수 있음
+        Lowercase : 대문자를 모두 소문자로 고정
+        Accent : 기호 제거
+        Parse html : html을 가져올 수 있다.
+        (parsing = 인식해온다. - 해당되는 파일을 parse할 수 있는 기능 = parser)
+        Remove urls : url tag를 제거 할 수 있다.
 
-다시 wordcloud를 연결해보면 정제된 것을 확인할 수 있음.
+    - Tokenization : (어떤 인증을 표기하는 것 = 토큰)
+        -> 어떤 문장을 단위로 쪼개주는 것
+        Regexp : 정규식 -> 토큰을 하기 위한 패턴을 지정할 수 있음
+
+    - Filtering : 원하는 단어나 기호를 제거할 수 있다.
+    다시 wordcloud를 연결해보면 정제된 것을 확인할 수 있음.
 
 불필요한 단어들을 제거하고 싶을 때 : stopwords
 -> 메모장에서 미리 작성하고 불러오기를 통해서 지정가능!
