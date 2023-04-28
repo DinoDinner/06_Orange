@@ -1,35 +1,36 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme version="2.0" title="" description="">
 	<nodes>
-		<node id="0" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus" position="(77.0, 193.0)" />
-		<node id="1" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer" position="(236.0, 124.0)" />
-		<node id="2" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(234.0, 201.0)" />
-		<node id="3" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text" position="(232.0, 294.0)" />
-		<node id="4" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud Preprocess" position="(359.0, 249.0)" />
-		<node id="5" name="Statistics" qualified_name="orangecontrib.text.widgets.owstatistics.OWStatistics" project_name="Orange3-Text" version="" title="Statistics" position="(198.0, 388.0)" />
-		<node id="6" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(343.0, 400.0)" />
-		<node id="7" name="Wikipedia" qualified_name="orangecontrib.text.widgets.owwikipedia.OWWikipedia" project_name="Orange3-Text" version="" title="Wikipedia" position="(176.0, 496.0)" />
-		<node id="8" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud Wiki" position="(463.0, 494.0)" />
-		<node id="9" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text Wiki" position="(309.0, 495.0)" />
-		<node id="10" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus BOW" position="(77.0, 650.0)" />
-		<node id="11" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text Wiki BOW" position="(215.0, 648.0)" />
-		<node id="12" name="Bag of Words" qualified_name="orangecontrib.text.widgets.owbagofwords.OWTBagOfWords" project_name="Orange3-Text" version="" title="Bag of Words" position="(354.0, 651.0)" />
-		<node id="13" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table BOW" position="(510.0, 640.0)" />
-		<node id="14" name="Hierarchical Clustering" qualified_name="Orange.widgets.unsupervised.owhierarchicalclustering.OWHierarchicalClustering" project_name="Orange3" version="" title="Hierarchical Clustering" position="(629.0, 733.0)" />
-		<node id="15" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances" position="(508.0, 733.0)" />
-		<node id="16" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(454.0, 848.0)" />
-		<node id="17" name="Nomogram" qualified_name="Orange.widgets.visualize.ownomogram.OWNomogram" project_name="Orange3" version="" title="Nomogram" position="(596.0, 849.0)" />
-		<node id="18" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus grimm" position="(819.0, 165.0)" />
-		<node id="19" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text grimm" position="(947.0, 165.0)" />
-		<node id="20" name="Bag of Words" qualified_name="orangecontrib.text.widgets.owbagofwords.OWTBagOfWords" project_name="Orange3-Text" version="" title="Bag of Words grimm" position="(1084.0, 162.0)" />
-		<node id="21" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus anderssen" position="(849.0, 454.0)" />
-		<node id="22" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text anderssen" position="(977.0, 454.0)" />
-		<node id="23" name="Bag of Words" qualified_name="orangecontrib.text.widgets.owbagofwords.OWTBagOfWords" project_name="Orange3-Text" version="" title="Bag of Words grimm anderssen" position="(1117.0, 454.0)" />
-		<node id="24" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer anderssen" position="(979.0, 555.0)" />
-		<node id="25" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer grimm" position="(947.0, 263.0)" />
-		<node id="26" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression grimm" position="(1161.0, 280.0)" />
-		<node id="27" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions grimm" position="(1347.0, 379.0)" />
-		<node id="28" name="kNN" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" project_name="Orange3" version="" title="kNN grimm" position="(1164.0, 383.0)" />
+		<node id="0" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus" position="(267.0, 33.0)" />
+		<node id="1" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer" position="(426.0, -36.0)" />
+		<node id="2" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud" position="(424.0, 41.0)" />
+		<node id="3" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text" position="(422.0, 134.0)" />
+		<node id="4" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud Preprocess" position="(573.0, 133.0)" />
+		<node id="5" name="Statistics" qualified_name="orangecontrib.text.widgets.owstatistics.OWStatistics" project_name="Orange3-Text" version="" title="Statistics" position="(424.0, 224.0)" />
+		<node id="6" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(573.0, 224.0)" />
+		<node id="7" name="Wikipedia" qualified_name="orangecontrib.text.widgets.owwikipedia.OWWikipedia" project_name="Orange3-Text" version="" title="Wikipedia" position="(275.0, 351.0)" />
+		<node id="8" name="Word Cloud" qualified_name="orangecontrib.text.widgets.owwordcloud.OWWordCloud" project_name="Orange3-Text" version="" title="Word Cloud Wiki" position="(575.0, 352.0)" />
+		<node id="9" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text Wiki" position="(425.0, 352.0)" />
+		<node id="10" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus BOW" position="(278.0, 486.0)" />
+		<node id="11" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text Wiki BOW" position="(423.0, 487.0)" />
+		<node id="12" name="Bag of Words" qualified_name="orangecontrib.text.widgets.owbagofwords.OWTBagOfWords" project_name="Orange3-Text" version="" title="Bag of Words" position="(414.0, 632.0)" />
+		<node id="13" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table BOW" position="(577.0, 486.0)" />
+		<node id="14" name="Hierarchical Clustering" qualified_name="Orange.widgets.unsupervised.owhierarchicalclustering.OWHierarchicalClustering" project_name="Orange3" version="" title="Hierarchical Clustering" position="(707.0, 578.0)" />
+		<node id="15" name="Distances" qualified_name="Orange.widgets.unsupervised.owdistances.OWDistances" project_name="Orange3" version="" title="Distances" position="(578.0, 578.0)" />
+		<node id="16" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(585.0, 654.0)" />
+		<node id="17" name="Nomogram" qualified_name="Orange.widgets.visualize.ownomogram.OWNomogram" project_name="Orange3" version="" title="Nomogram" position="(708.0, 659.0)" />
+		<node id="18" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus grimm" position="(846.0, 169.0)" />
+		<node id="19" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text grimm" position="(973.0, 164.0)" />
+		<node id="20" name="Bag of Words" qualified_name="orangecontrib.text.widgets.owbagofwords.OWTBagOfWords" project_name="Orange3-Text" version="" title="Bag of Words grimm" position="(1098.0, 162.0)" />
+		<node id="21" name="Corpus" qualified_name="orangecontrib.text.widgets.owcorpus.OWCorpus" project_name="Orange3-Text" version="" title="Corpus anderssen" position="(848.0, 377.0)" />
+		<node id="22" name="Preprocess Text" qualified_name="orangecontrib.text.widgets.owpreprocess.OWPreprocess" project_name="Orange3-Text" version="" title="Preprocess Text anderssen" position="(977.0, 372.0)" />
+		<node id="23" name="Bag of Words" qualified_name="orangecontrib.text.widgets.owbagofwords.OWTBagOfWords" project_name="Orange3-Text" version="" title="Bag of Words grimm anderssen" position="(1104.0, 369.0)" />
+		<node id="24" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer anderssen" position="(977.0, 465.0)" />
+		<node id="25" name="Corpus Viewer" qualified_name="orangecontrib.text.widgets.owcorpusviewer.OWCorpusViewer" project_name="Orange3-Text" version="" title="Corpus Viewer grimm" position="(976.0, 260.0)" />
+		<node id="26" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression grimm" position="(1221.0, 151.0)" />
+		<node id="27" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions grimm" position="(1391.0, 355.0)" />
+		<node id="28" name="kNN" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" project_name="Orange3" version="" title="kNN grimm" position="(1217.0, 249.0)" />
+		<node id="29" name="Save Model" qualified_name="Orange.widgets.model.owsavemodel.OWSaveModel" project_name="Orange3" version="" title="Save Model" position="(1367.0, 249.0)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Corpus" sink_channel="Corpus" enabled="true" />
@@ -100,21 +101,23 @@ lENCAdnQywADAAD/////////+AAAB4AAAAQIAAAB/gAAAQoAAAWBAAAC/QAAAAACAAAAB4AAAAAA
 AAAAFwAAB38AAAQHlIwOc2VsZWN0ZWRfd29yZHOUj5SMC3dvcmRzX2NvbG9ylIiMCndvcmRzX3Rp
 bHSUSwCMC19fdmVyc2lvbl9flEsBdS4=
 </properties>
-		<properties node_id="3" format="pickle">gASVPQMAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
-V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAa0AAAGaAAAF0wAAA60AAAGuAAABuQAABdIAAAOs
-AAAAAAAAAAAHgAAAAa4AAAG5AAAF0gAAA6yUjA5zdG9yZWRzZXR0aW5nc5R9lCiMBG5hbWWUjACU
-jA1wcmVwcm9jZXNzb3JzlF2UKIwUcHJlcHJvY2Vzcy50cmFuc2Zvcm2UfZSGlIwTcHJlcHJvY2Vz
-cy50b2tlbml6ZZR9lCiMBm1ldGhvZJRLA4wHcGF0dGVybpSMBlthLXpdK5R1hpSMEXByZXByb2Nl
-c3MuZmlsdGVylH2UKIwHYWJzX2VuZJRLCowJYWJzX3N0YXJ0lEsBjAlmcmVxX3R5cGWUSwCMCGlu
-Y2xfbnVtlImMC2ludmFsaWRhdGVklEc/43C0mwze7YwIbGFuZ3VhZ2WUjAdFbmdsaXNolIwHbHhf
-bGlzdJRdlIwHbHhfcGF0aJROjAdtZXRob2RzlF2USwBhjAhuX3Rva2Vuc5RLZIwHcGF0dGVybpSM
-W1wufCx8Onw7fCF8XD98XCh8XCl8XHx8XCt8XCd8XCJ84oCYfOKAmXzigJx84oCdfFwnfFzigJl8
-4oCmfFwtfOKAk3zigJR8XCR8JnxcKnw+fDx8XC98XFt8XF2UjAhwb3NfdGFnc5SMCU5PVU4sVkVS
-QpSMB3JlbF9lbmSURz/szMzMzMzNjAlyZWxfc3RhcnSURz+5mZmZmZmajAdzd19saXN0lF2UjB5v
-cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
-YXRolIw3QzovVXNlcnMvV2luZG93czExL2dpdEh1Yi8wNl9PcmFuZ2UvOTlfU3JjL3N0b3B3b3Jk
-LnR4dJSMBnByZWZpeJROjAdyZWxwYXRolE6MBXRpdGxllGgIjAVzaGVldJRoCIwLZmlsZV9mb3Jt
-YXSUTnViYYwHc3dfcGF0aJRoLnWGlGV1jAtfX3ZlcnNpb25fX5RLA3Uu
+		<properties node_id="3" format="pickle">gASVogMAAAAAAAB9lCiMCmF1dG9jb21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiME3NhdmVk
+V2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAA8AAAAAAAAAHfwAABAcAAAPBAAAAHwAAB34AAAQG
+AAAAAAAAAAAHgAAAA8EAAAAfAAAHfgAABAaUjA5zdG9yZWRzZXR0aW5nc5R9lCiMBG5hbWWUjACU
+jA1wcmVwcm9jZXNzb3JzlF2UKIwUcHJlcHJvY2Vzcy50cmFuc2Zvcm2UfZSMB21ldGhvZHOUXZRL
+AGFzhpSME3ByZXByb2Nlc3MudG9rZW5pemWUfZQojAZtZXRob2SUSwOMB3BhdHRlcm6UjAZbYS16
+XSuUdYaUjBFwcmVwcm9jZXNzLmZpbHRlcpR9lCiMB2Fic19lbmSUSwqMCWFic19zdGFydJRLAYwJ
+ZnJlcV90eXBllEsAjAhpbmNsX251bZSJjAtpbnZhbGlkYXRlZJRHP+NwtJsM3u2MCGxhbmd1YWdl
+lIwHRW5nbGlzaJSMB2x4X2xpc3SUXZSMB2x4X3BhdGiUTowHbWV0aG9kc5RdlEsAYYwIbl90b2tl
+bnOUS2SMB3BhdHRlcm6UjFtcLnwsfDp8O3whfFw/fFwofFwpfFx8fFwrfFwnfFwifOKAmHzigJl8
+4oCcfOKAnXxcJ3xc4oCZfOKApnxcLXzigJN84oCUfFwkfCZ8XCp8Pnw8fFwvfFxbfFxdlIwIcG9z
+X3RhZ3OUjAlOT1VOLFZFUkKUjAdyZWxfZW5klEc/7MzMzMzMzYwJcmVsX3N0YXJ0lEc/uZmZmZmZ
+mowHc3dfbGlzdJRdlIweb3Jhbmdld2lkZ2V0LnV0aWxzLmZpbGVkaWFsb2dzlIwKUmVjZW50UGF0
+aJSTlCmBlH2UKIwHYWJzcGF0aJSMN0M6L1VzZXJzL1dpbmRvd3MxMS9naXRIdWIvMDZfT3Jhbmdl
+Lzk5X1NyYy9zdG9wd29yZC50eHSUjAZwcmVmaXiUTowHcmVscGF0aJROjAV0aXRsZZRoCIwFc2hl
+ZXSUaAiMC2ZpbGVfZm9ybWF0lE51YmGMB3N3X3BhdGiUaC8pgZR9lChoMow3QzovVXNlcnMvV2lu
+ZG93czExL2dpdEh1Yi8wNl9PcmFuZ2UvOTlfU3JjL3N0b3B3b3JkLnR4dJRoNE5oNU5oNmgIaDdo
+CGg4TnVidYaUZXWMC19fdmVyc2lvbl9flEsDdS4=
 </properties>
 		<properties node_id="4" format="pickle">gASVtwAAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
 lENCAdnQywADAAAAAALkAAAAOAAABmkAAAJLAAAC5QAAAFcAAAZoAAACSgAAAAAAAAAAB4AAAALl
@@ -933,15 +936,16 @@ lEsBdXViYXUu
 </properties>
 		<properties node_id="15" format="literal">{'autocommit': True, 'axis': 0, 'controlAreaVisible': True, 'metric_idx': 0, 'normalized_dist': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x028\x00\x00\x01G\x00\x00\x02\xf4\x00\x00\x02-\x00\x00\x029\x00\x00\x01f\x00\x00\x02\xf3\x00\x00\x02,\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x029\x00\x00\x01f\x00\x00\x02\xf3\x00\x00\x02,', '__version__': 3}</properties>
 		<properties node_id="16" format="literal">{'C_index': 61, 'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'learner_name': '', 'penalty_type': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03K\x00\x00\x01l\x00\x00\x044\x00\x00\x02~\x00\x00\x03L\x00\x00\x01\x8b\x00\x00\x043\x00\x00\x02}\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03L\x00\x00\x01\x8b\x00\x00\x043\x00\x00\x02}', '__version__': 2}</properties>
-		<properties node_id="17" format="pickle">gASVvgEAAAAAAAB9lCiMFmNvbnRfZmVhdHVyZV9kaW1faW5kZXiUSwCMEmNvbnRyb2xBcmVhVmlz
+		<properties node_id="17" format="pickle">gASVBwIAAAAAAAB9lCiMFmNvbnRfZmVhdHVyZV9kaW1faW5kZXiUSwCMEmNvbnRyb2xBcmVhVmlz
 aWJsZZSIjA1kaXNwbGF5X2luZGV4lEsBjAxuX2F0dHJpYnV0ZXOUSwqMF25vcm1hbGl6ZV9wcm9i
 YWJpbGl0aWVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAjEAAADrAAAFTgAA
 Av4AAAIyAAABCgAABU0AAAL9AAAAAAAAAAAHgAAAAjIAAAEKAAAFTQAAAv2UjAVzY2FsZZRLAIwK
 c29ydF9pbmRleJSMI09yYW5nZS53aWRnZXRzLnZpc3VhbGl6ZS5vd25vbW9ncmFtlIwGU29ydEJ5
 lJOUSwKFlFKUjAtfX3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdp
 ZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEnRhcmdldF9jbGFz
-c19pbmRleJRLAGgPSwF1jAdjbGFzc2VzlE51YmgUKYGUfZQoaBd9lChoGUsAaA9LAXVoGk51YmV1
-Lg==
+c19pbmRleJRLAGgPSwF1jAdjbGFzc2VzlE51YmgUKYGUfZQoaBd9lChoGUsAaA9LAXVoGk51YmgU
+KYGUfZQoaBd9lCiMEnRhcmdldF9jbGFzc19pbmRleJRLAGgPSwF1aBpOdWJoFCmBlH2UKGgXfZQo
+aCFLAGgPSwF1aBpOdWJldS4=
 </properties>
 		<properties node_id="18" format="pickle">gASVUAIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfZmlsZXOUXZQojBhn
 cmltbS10YWxlcy1zZWxlY3RlZC50YWKUjBFib29rLWV4Y2VycHRzLnRhYpSMGGVsZWN0aW9uLXR3
@@ -1052,14 +1056,15 @@ aEMpdWJldS4=
 		<properties node_id="27" format="pickle">gASV2gEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
 lENCAdnQywADAAAAAAJuAAAAnwAABmkAAAI8AAACbwAAAL4AAAZoAAACOwAAAAAAAAAAB4AAAAJv
 AAAAvgAABmgAAAI7lIwJc2VsZWN0aW9ulF2USwJhjAtzaG93X3Njb3Jlc5SIjAtzY29yZV90YWJs
-ZZR9lIwMc2hvd25fc2NvcmVzlI+UKIwEUk1TRZSMA01BRZSMAkYxlIwCUjKUjAlQcmVjaXNpb26U
-jAdDLUluZGV4lIwDTVNFlIwCQ0GUjANBVUOUjAZSZWNhbGyUkHOMC19fdmVyc2lvbl9flEsBjBBj
+ZZR9lIwMc2hvd25fc2NvcmVzlI+UKIwEUk1TRZSMA0FVQ5SMAkNBlIwDTUFFlIwCRjGUjAdDLUlu
+ZGV4lIwGUmVjYWxslIwDTVNFlIwJUHJlY2lzaW9ulIwCUjKUkHOMC19fdmVyc2lvbl9flEsBjBBj
 b250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGU
 fZQojAZ2YWx1ZXOUfZQojBdzaG93X3Byb2JhYmlsaXR5X2Vycm9yc5SIjA9zaG93X3JlZ19lcnJv
 cnOUSwGMC3Nob3duX3Byb2JzlEsAjAx0YXJnZXRfY2xhc3OUjBYoQXZlcmFnZSBvdmVyIGNsYXNz
 ZXMplGgHfZRoFUsBdYwHY2xhc3Nlc5QpdWJhdS4=
 </properties>
 		<properties node_id="28" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': 'kNN 1', 'metric_index': 0, 'n_neighbors': 15, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03L\x00\x00\x01|\x00\x00\x044\x00\x00\x02n\x00\x00\x03M\x00\x00\x01\x9b\x00\x00\x043\x00\x00\x02m\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03M\x00\x00\x01\x9b\x00\x00\x043\x00\x00\x02m', 'weight_index': 0, '__version__': 1}</properties>
+		<properties node_id="29" format="literal">{'auto_save': False, 'controlAreaVisible': True, 'filter': 'Pickled model (*.pkcls)', 'savedWidgetGeometry': None, 'stored_name': '', 'stored_path': '', '__version__': 1}</properties>
 	</node_properties>
 	<session_state>
 		<window_groups />
